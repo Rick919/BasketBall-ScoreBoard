@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            
+            <div id="home-side" class="scoreboard-layout">
+                <div id="home-side-btns">
+                    <button class="btn-points"  onclick="addPoints(3,'home')">+3</button>
+                    <button class="btn-points " onclick="addPoints(2,'home')">+2</button>
+                    <button class="btn-points" onclick="addPoints(1,'home')" >+1</button>
+                    </div>
+                    <div>
+                <h3>HOME</h3>
+                <div class="counter-board" id="home-el">0</div>
+                    </div>
+            </div>
+
+            <div id="game-info">
+            <h4 id="quarter-no">Quarter Number</h4>
+            <h5 id="timer"> Timer</h5>
+            <button id="newGame-btn" onclick="newGame()"> NEW GAME</button>
+            </div>
+
+            <div id="guest-side" class="scoreboard-layout">
+                <div>
+                <h3>GUEST</h3>
+                <div class="counter-board" id="guest-el">0</div>
+            </div>
+            <div id="guest-side-btns">
+                <button class="btn-points" onclick="addPoints(3,'guest')">+3</button>
+                <button class="btn-points" onclick="addPoints(2,'guest')">+2</button>
+                <button class="btn-points" onclick="addPoints(1,'guest')">+1</button>
+                </div>
+            </div>
+            
+            
+            
+        
+        </div>
+        <script src="index.js"> </script>
+    </body>
+</html>

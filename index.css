@@ -1,0 +1,87 @@
+@font-face {
+    font-family: CursedTimer;
+    src: url(resources/CursedTimerUlil-Aznm.ttf);
+  }
+
+
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 680px;
+    height: 354px;
+    margin: 10px auto;
+    background-color: #111827;
+    color: antiquewhite;
+    border-radius: 10px;
+    
+}
+
+
+.scoreboard-layout{
+    display: flex;
+    justify-content: center;
+     width: 200px;
+     margin: 30px;
+     
+}
+
+h3{
+    font-size: 40px;
+    text-align: center;
+    margin: 15px;
+}
+
+.counter-board{
+    width: 155px;
+    height: 120px;
+    background-color: #374151;
+    border-radius: 10px;
+    margin: auto;
+    font-family: "CursedTimer", sans-serif;
+    font-size: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #E11D48;
+}
+
+.btn-points{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #9AABD8;
+    margin: 10px 0 0 0;
+    width: 45px;
+    height: 45px;
+    border-radius: 10px;
+    background-color: transparent;
+    color: #9AABD8;
+    font-family: 'CursedTimer', Courier, monospace;
+    padding: 10px;
+}
+
+#home-side-btns{
+    margin: 50px 10px 0 40px;
+}
+
+#guest-side-btns{
+    margin: 50px 40px 0 10px;
+}
+
+#timer{
+    text-align: center;
+}
+
+#newGame-btn {
+    background-color: rgb(206, 15, 21);
+    width: 100px;
+    height: 50px;
+    margin: 150px 0 0 0;
+}
+
+#game-info{
+    text-align: center;
+}
